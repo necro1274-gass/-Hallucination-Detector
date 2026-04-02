@@ -2,11 +2,18 @@
 ### creating env
 
 ```
+cd .\backend\
 py  -m venv venv
 
 venv\Scripts\activate
 
 
+```
+### down teh dependencies
+
+```
+
+pip install fastapi uvicorn groq tavily-python python-dotenv
 ```
 ## run teh backend
 
@@ -14,12 +21,6 @@ venv\Scripts\activate
  python -m uvicorn app.main:app --reload
 ```
 
-### down teh dependencies
-
-```
-
-pip install fastapi uvicorn groq tavily-python python-dotenv
-```
 
 ## run the frontend 
 
