@@ -1,0 +1,13 @@
+Extract ALL factual claims from the text.
+
+DO NOT skip controversial, doubtful, or incorrect statements.
+
+Include:
+- scientific claims
+- opinions presented as facts
+- common myths
+
+Return ONLY a Python list of strings.
+
+Text:
+{response}
