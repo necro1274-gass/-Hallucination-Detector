@@ -1,9 +1,18 @@
+
+### creating env
+
+```
+py  -m venv venv
+
+venv\Scripts\activate
+
+
+```
 ## run teh backend
 
 ```
  python -m uvicorn app.main:app --reload
 ```
-
 
 ### down teh dependencies
 
